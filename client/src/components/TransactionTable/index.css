@@ -1,0 +1,74 @@
+div{
+  margin: 10px;
+}
+h2 {
+  color: #333;
+}
+
+
+
+input {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 3px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+button {
+  padding: 8px 12px;
+  margin-right: 5px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.t-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+.search{
+  background-color: lightgoldenrodyellow;
+  border-radius: 10px;
+  border: solid 3px goldenrod;
+}
+.month{
+  display: flex;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+.t-body{
+  background-color: palegoldenrod;
+}
+.tab-container{
+  border: 3px solid gainsboro;
+  padding: 100px;
+  width: auto;
+}

@@ -1,0 +1,16 @@
+.b-container{
+    background-color: aliceblue;
+    padding: 50px;
+}
+.bar-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+    border: 3px solid grey;
+    padding: 100px;
+}
+.bar-input{
+    border: solid 2px goldenrod;
+
+}
